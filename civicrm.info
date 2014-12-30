@@ -4,6 +4,8 @@ version = 4.4.11-rc1
 package = CiviCRM
 core = 7.x
 php = 5.3
+project = civicrm
+
 files[] = civicrm.module
 files[] = civicrm.install
 files[] = civicrm_user.inc

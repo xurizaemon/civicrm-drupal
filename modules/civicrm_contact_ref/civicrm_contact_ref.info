@@ -5,6 +5,7 @@ package = CiviCRM
 core = 7.x
 version = 4.4
 php = 5.2
+project = civicrm
 
 dependencies[] = civicrm
 dependencies[] = text
