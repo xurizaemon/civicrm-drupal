@@ -1,0 +1,50 @@
+
+# CivicrmEntityContact routing definition
+entity.civicrm_entity_contact.canonical:
+  path: '/admin/civicrm_entity_contact/{civicrm_entity_contact}'
+  defaults:
+    _entity_view: 'civicrm_entity_contact'
+    _title: 'CiviCRM Contact entity Content'
+  requirements:
+    _entity_access: 'civicrm_entity_contact.view'
+
+entity.civicrm_entity_contact.collection:
+  path: '/admin/civicrm_entity_contact'
+  defaults:
+    _entity_list: 'civicrm_entity_contact'
+    _title: 'CiviCRM Contact entity List'
+  requirements:
+    _permission: 'view CiviCRM Contact entity'
+
+entity.civicrm_entity_contact.add_form:
+  path: '/admin/civicrm_entity_contact/add'
+  defaults:
+    _entity_form: civicrm_entity_contact.add
+    _title: 'Add CiviCRM Contact entity'
+  requirements:
+    _entity_create_access: 'civicrm_entity_contact'
+
+entity.civicrm_entity_contact.edit_form:
+  path: '/admin/civicrm_entity_contact/{civicrm_entity_contact}/edit'
+  defaults:
+    _entity_form: civicrm_entity_contact.edit
+    _title: 'Edit CiviCRM Contact entity'
+  requirements:
+    _entity_access: 'civicrm_entity_contact.edit'
+
+entity.civicrm_entity_contact.delete_form:
+  path: '/admin/civicrm_entity_contact/{civicrm_entity_contact}/delete'
+  defaults:
+    _entity_form: civicrm_entity_contact.delete
+    _title: 'Delete CiviCRM Contact entity'
+  requirements:
+    _entity_access: 'civicrm_entity_contact.delete'
+
+civicrm_entity_contact.settings:
+  path: 'admin/structure/civicrm_entity_contact'
+  defaults:
+   _form: '\Drupal\civicrm_entity\Entity\Form\CivicrmEntityContactSettingsForm'
+   _title: 'CiviCRM Contact entity Settings'
+  requirements:
+    _permission: 'administer CiviCRM Contact entity'
+

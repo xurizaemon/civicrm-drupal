@@ -1,0 +1,8 @@
+name: CiviCRM Entity
+type: module
+description: Expose CiviCRM entities as Drupal entities.
+core: 8.x
+package: CiviCRM
+dependencies:
+  - civicrm
+

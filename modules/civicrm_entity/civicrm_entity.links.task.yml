@@ -1,0 +1,22 @@
+# CivicrmEntityContact routing definition
+civicrm_entity_contact.settings_tab:
+  route_name: civicrm_entity_contact.settings
+  title: 'Settings'
+  base_route: civicrm_entity_contact.settings
+
+entity.civicrm_entity_contact.canonical:
+  route_name: entity.civicrm_entity_contact.canonical
+  base_route: entity.civicrm_entity_contact.canonical
+  title: 'View'
+
+entity.civicrm_entity_contact.edit_form:
+  route_name: entity.civicrm_entity_contact.edit_form
+  base_route: entity.civicrm_entity_contact.canonical
+  title: Edit
+
+entity.civicrm_entity_contact.delete_form:
+  route_name:  entity.civicrm_entity_contact.delete_form
+  base_route:  entity.civicrm_entity_contact.canonical
+  title: Delete
+  weight: 10
+

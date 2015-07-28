@@ -1,0 +1,16 @@
+
+view CivicrmEntityContact entity:
+  title: 'View Civicrm Contact entity'
+  description: 'Allow view my Civicrm Contact entity'
+
+edit CivicrmEntityContact entity:
+  title: 'Edit Civicrm Contact entity'
+  description: 'Allow edit my Civicrm Contact entity'
+
+delete CivicrmEntityContact entity:
+  title: 'Delete Civicrm Contact entity'
+  description: 'Allow delete my Civicrm Contact entity'
+
+administer CivicrmEntityContact entity:
+  title: 'Adminster Civicrm Contact entity'
+  description: 'Allow administer my Civicrm Contact entity'

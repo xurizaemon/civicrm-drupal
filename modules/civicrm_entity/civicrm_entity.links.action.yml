@@ -1,0 +1,7 @@
+entity.civicrm_entity_contact.add_form:
+  route_name: entity.civicrm_entity_contact.add_form
+  title: 'Add CiviCRM Contact entity'
+  appears_on:
+    - entity.civicrm_entity_contact.collection
+    - entity.civicrm_entity_contact.canonical
+

@@ -1,0 +1,12 @@
+# CivicrmEntityContact menu items definition
+entity.civicrm_entity_contact.collection:
+  title: 'CiviCRM Contact entity: Listing'
+  route_name: entity.civicrm_entity_contact.collection
+  description: 'List CivicrmEntityContact'
+
+civicrm_entity_contact.admin.structure.settings:
+  title: CivicrmEntityContact Settings
+  description: 'Configure CiviCRM Contact entity'
+  route_name: civicrm_entity_contact.settings
+  parent: system.admin_structure
+
